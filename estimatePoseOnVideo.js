@@ -63,6 +63,8 @@ async function main() {
       maxDetections: 30
     });
 
+    input.dispose();
+
     posesByFrame.push(poses);
   }
 

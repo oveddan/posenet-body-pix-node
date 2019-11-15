@@ -64,7 +64,9 @@ async function main() {
     
     personSegmentation.data.map(value => value * 255)
 
-    await saveSegmentationToFile(personSegmentation, './data/segmentations/' + file);
+    input.dispose();
+
+    saveSegmentationToFile(personSegmentation, './data/segmentations/' + file);
   }
 
 

@@ -54,18 +54,17 @@ function drawPoses(poses) {
   }
 }
 
-const FPS = 29.97;
+const FPS = 30000.0/1001;
 function draw() {
   background(0);
   if (playing) {
     image(soccerVideo, 0, 0);
     const currentTime = soccerVideo.time();
 
-    const frame = Math.round(currentTime * FPS);
+    const frame = Math.floor(currentTime * FPS);
 
     const poseOfFrame = posesData.poses[frame];
 
-    console.log('poses', poseOfFrame)
     drawPoses(poseOfFrame);
   }
 }
