@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-"@tensorflow-models/body-pix@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@tensorflow-models/body-pix/-/body-pix-2.0.2.tgz#3c2c787a9621bbc40d4e20e23aad8b7e69f8c9c5"
-  integrity sha512-2fgwuco2smxkTqPOGq6Jc/4K9lOrTIvqfMF5UjIqQGhVGwRas8DQJfOiq7pPCzRZEc1diuhCjMTx4PK4aSKFyQ==
-
 "@tensorflow-models/posenet@^2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@tensorflow-models/posenet/-/posenet-2.2.0.tgz#af2237b018a8bb46c8e53e7e1817277fa368d134"
@@ -156,6 +151,11 @@ balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
   integrity sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
+
+body-pix-node@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/body-pix-node/-/body-pix-node-2.0.4.tgz#3cd9da4ae58d415c4966a622aba0c8837dfa132d"
+  integrity sha512-y3dsOkNZ9EoK+YRw3EXxkNFe8lRjNnvRHl5C7CwkMlCCoO3t0kHTiLiYtyWhnG5tICn27bqVD35VsgJ9+EoObA==
 
 brace-expansion@^1.1.7:
   version "1.1.11"

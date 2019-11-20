@@ -1,4 +1,4 @@
-const bodyPix = require('@tensorflow-models/body-pix');
+const bodyPix = require('body-pix-node');
 const fs = require('fs');
 const path = require('path');
 

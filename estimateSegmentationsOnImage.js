@@ -1,4 +1,4 @@
-const bodyPix = require('@tensorflow-models/body-pix');
+const bodyPix = require('body-pix-node');
 const fs = require('fs');
 
 const tfjs = require('@tensorflow/tfjs-node');
@@ -40,7 +40,7 @@ async function main() {
     outputStride: 16
   });
 
-  console.log('estimating poses');
+  console.log('estimating segmentation');
 
   const personSegmentation = await net.segmentPerson(image, {
     internalResolution: "full",
